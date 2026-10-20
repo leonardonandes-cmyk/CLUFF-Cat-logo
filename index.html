@@ -463,8 +463,9 @@ function corHex(nome){
 }
 
 const REPOS=[
-  REPO_FOTOS,   // "" -> relativo (mesmo deploy que o index)
-  "https://raw.githubusercontent.com/leonardonandes-cmyk/CLUFF-Cat-logo/main/"
+  "fotos/",     // pasta das fotos (organização nova: index na raiz, fotos em /fotos)
+  REPO_FOTOS,   // "" -> raiz, rede de segurança enquanto alguma foto ainda não foi movida
+  "https://raw.githubusercontent.com/leonardonandes-cmyk/cluff-cat-logo/main/fotos/"
 ];
 const EXTS=[".jpg",".jpeg",".png",".webp",".jfif"];   // .jpg (padrão real) primeiro
 // Tolera diferença de maiúscula/minúscula na 1ª letra da Referência:
